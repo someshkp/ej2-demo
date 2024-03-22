@@ -3,11 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@syncfusion/ej2-react-buttons": "^25.1.35",
+    "@syncfusion/ej2-react-calendars": "^25.1.35",
+    "@syncfusion/ej2-react-charts": "^25.1.35",
+    "@syncfusion/ej2-react-dropdowns": "^25.1.35",
+    "@syncfusion/ej2-react-grids": "^25.1.35",
+    "@syncfusion/ej2-react-inputs": "^25.1.35",
+    "@syncfusion/ej2-react-navigations": "^25.1.35",
+    "@syncfusion/ej2-react-popups": "^25.1.35",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -16,12 +25,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
